@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+/* Home */
+
+.home{
+    background-image: url(./img/home.png);
+    background-size: cover;
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+    h2{
+        padding-top: 10rem;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+h1 span:before{
+    content: 'Hallo, I\'m Brilyan';
+    animation: changeText 18s infinite;
+}
+@keyframes changeText{
+    20%{
+        content: 'I\'m UNS Student';
+    }
+    40%{
+        content: 'PTIK 2018';
+    }
+    60%{
+        content: 'This work is for my Mid Test';
+    }
+    80%{
+        content: 'For Web Designing Lesson';
+    }
+    100%{
+        content: 'by Mr. Nurcahya';
+    }
+}
+
+/* Bio */
+.bio1{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+}
+.bio2{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+    img{
+        height: 200px;
+        padding-bottom: 3rem;
+    }
+    td{
+        padding: 2px 3px;
+    }
+}
+
+/* Edu */
+.edu1{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+}
+.edu2{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+}
+.sd img{
+    height:200px;
+    padding: 60px 0;
+}
+.sd{
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+.smp img{
+    height:200px;
+    padding: 60px 0;
+}
+.smp{
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+.sma img{
+    height:200px;
+    padding: 60px 0;
+}
+.sma{
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+.uns img{
+    height:200px;
+    padding: 60px 0;
+}
+.uns{
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+
+/* Organization */
+.org1{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+}
+.org2{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+}
+.pramuka img{
+    height:200px;
+    padding: 60px 0;
+}
+.pramuka{
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+.bytesfest img{
+    height:200px;
+    padding: 60px 0;
+}
+.bytesfest{
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+/* Ach */
+.ach1{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+}
+.ach2{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+}
+.osn img{
+    height:200px;
+    padding: 60px 0;
+}
+.osn{
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+.fls2n{
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    img{
+        height: 350px;
+        padding: 60px 0;
+    }
+    .top{
+        animation: fls2n 4s infinite;
+    }
+    @keyframes fls2n{
+        50%{
+            content: url(./img/fls2n/f2.jpg);
+        }
+    }
+}
+.futsal{
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    img{
+        height: 350px;
+        padding: 60px 0;
+    }
+    .top{
+        animation: dekan 6s infinite;
+    }
+    @keyframes dekan{
+        50%{
+            content: url(./img/dekan-cup/dekan2.png);
+        }
+        100%{
+            content: url(./img/dekan-cup/dekan3.png)
+        }
+    }
+}
+.osm{
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    img{
+        height: 350px;
+        padding: 50px 0;
+    }
+    .top{
+        animation: osmm 12s infinite;
+    }
+    @keyframes osmm{
+        20%{
+            content: url(./img/osm-ml/o2.png);
+        }
+        40%{
+            content: url(./img/osm-ml/o3.png)
+        }
+        60%{
+            content: url(./img/osm-ml/o4.png)
+        }
+        80%{
+            content: url(./img/osm-ml/o5.png)
+        }
+        100%{
+            content: url(./img/osm-ml/o6.png)
+        }
+    }
+}
+/* Skills */ 
+.skl1{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+}
+.skl2{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+
+    
+}
+.skillku{
+    margin-top: auto;
+    margin-left: auto;
+    padding: 5vh 30vh;
+    p{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+}
+.container {
+  width: 100%;
+  border: 2px solid lightblue;
+  border-radius: 20px;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 20px;
+}
+
+.html {
+    width: 50%; 
+    background: rgb(224,236,25);
+    background: linear-gradient(25deg, rgba(224,236,25,1) 0%, rgba(218,133,13,1) 79%);
+} 
+.css {
+    width: 50%; 
+    background: rgb(34,193,195);
+    background: linear-gradient(25deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.js {
+    width: 40%; 
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.py {
+    width: 60%; 
+    background: rgb(75,16,153);
+    background: linear-gradient(25deg, rgba(75,16,153,1) 0%, rgba(255,122,216,1) 52%, rgba(63,231,147,1) 100%);
+}
+/* Interest */
+.int{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    p{
+        text-align: justify;
+        font-size: 30px;
+        padding: 20px 50px;
+    }
+}
+/* Contacts */
+.con{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 10vh;
+    }
+    img{
+        padding: 5px 30px;
+    }
+    
+}
+/* Copyright */
+.cr{
+    position: relative;
+    background: url(./img/img1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: movingBack 22s linear infinite;
+    @keyframes movingBack{
+        from{
+            background-position: 0 0;
+        }
+        to{
+            background-position: 20% 90%;
+        }
+    }
+    h1{
+        text-align: center;
+    }
+}

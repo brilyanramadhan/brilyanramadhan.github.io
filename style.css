@@ -1,0 +1,641 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+/* Home */
+.home {
+  background-image: url(./img/home.png);
+  background-size: cover;
+}
+
+.home h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.home h2 {
+  padding-top: 10rem;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 16px;
+}
+
+h1 span:before {
+  content: 'Hallo, I\'m Brilyan';
+  -webkit-animation: changeText 18s infinite;
+          animation: changeText 18s infinite;
+}
+
+@-webkit-keyframes changeText {
+  20% {
+    content: 'I\'m UNS Student';
+  }
+  40% {
+    content: 'PTIK 2018';
+  }
+  60% {
+    content: 'This work is for my Mid Test';
+  }
+  80% {
+    content: 'For Web Designing Lesson';
+  }
+  100% {
+    content: 'by Mr. Nurcahya';
+  }
+}
+
+@keyframes changeText {
+  20% {
+    content: 'I\'m UNS Student';
+  }
+  40% {
+    content: 'PTIK 2018';
+  }
+  60% {
+    content: 'This work is for my Mid Test';
+  }
+  80% {
+    content: 'For Web Designing Lesson';
+  }
+  100% {
+    content: 'by Mr. Nurcahya';
+  }
+}
+
+/* Bio */
+.bio1 {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@-webkit-keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.bio1 h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.bio2 {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.bio2 img {
+  height: 200px;
+  padding-bottom: 3rem;
+}
+
+.bio2 td {
+  padding: 2px 3px;
+}
+
+/* Edu */
+.edu1 {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.edu1 h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.edu2 {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.sd img {
+  height: 200px;
+  padding: 60px 0;
+}
+
+.sd h1 {
+  font-size: 60px;
+}
+
+.sd h2 {
+  font-size: 30px;
+}
+
+.smp img {
+  height: 200px;
+  padding: 60px 0;
+}
+
+.smp h1 {
+  font-size: 60px;
+}
+
+.smp h2 {
+  font-size: 30px;
+}
+
+.sma img {
+  height: 200px;
+  padding: 60px 0;
+}
+
+.sma h1 {
+  font-size: 60px;
+}
+
+.sma h2 {
+  font-size: 30px;
+}
+
+.uns img {
+  height: 200px;
+  padding: 60px 0;
+}
+
+.uns h1 {
+  font-size: 60px;
+}
+
+.uns h2 {
+  font-size: 30px;
+}
+
+/* Organization */
+.org1 {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.org1 h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.org2 {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.pramuka img {
+  height: 200px;
+  padding: 60px 0;
+}
+
+.pramuka h1 {
+  font-size: 60px;
+}
+
+.pramuka h2 {
+  font-size: 30px;
+}
+
+.bytesfest img {
+  height: 200px;
+  padding: 60px 0;
+}
+
+.bytesfest h1 {
+  font-size: 60px;
+}
+
+.bytesfest h2 {
+  font-size: 30px;
+}
+
+/* Ach */
+.ach1 {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.ach1 h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.ach2 {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.osn img {
+  height: 200px;
+  padding: 60px 0;
+}
+
+.osn h1 {
+  font-size: 60px;
+}
+
+.osn h2 {
+  font-size: 30px;
+}
+
+.fls2n h1 {
+  font-size: 60px;
+}
+
+.fls2n h2 {
+  font-size: 30px;
+}
+
+.fls2n img {
+  height: 350px;
+  padding: 60px 0;
+}
+
+.fls2n .top {
+  -webkit-animation: fls2n 4s infinite;
+          animation: fls2n 4s infinite;
+}
+
+@-webkit-keyframes fls2n {
+  50% {
+    content: url(./img/fls2n/f2.jpg);
+  }
+}
+
+@keyframes fls2n {
+  50% {
+    content: url(./img/fls2n/f2.jpg);
+  }
+}
+
+.futsal h1 {
+  font-size: 50px;
+}
+
+.futsal h2 {
+  font-size: 25px;
+}
+
+.futsal img {
+  height: 350px;
+  padding: 60px 0;
+}
+
+.futsal .top {
+  -webkit-animation: dekan 6s infinite;
+          animation: dekan 6s infinite;
+}
+
+@-webkit-keyframes dekan {
+  50% {
+    content: url(./img/dekan-cup/dekan2.png);
+  }
+  100% {
+    content: url(./img/dekan-cup/dekan3.png);
+  }
+}
+
+@keyframes dekan {
+  50% {
+    content: url(./img/dekan-cup/dekan2.png);
+  }
+  100% {
+    content: url(./img/dekan-cup/dekan3.png);
+  }
+}
+
+.osm h1 {
+  font-size: 50px;
+}
+
+.osm h2 {
+  font-size: 25px;
+}
+
+.osm img {
+  height: 350px;
+  padding: 50px 0;
+}
+
+.osm .top {
+  -webkit-animation: osmm 12s infinite;
+          animation: osmm 12s infinite;
+}
+
+@-webkit-keyframes osmm {
+  20% {
+    content: url(./img/osm-ml/o2.png);
+  }
+  40% {
+    content: url(./img/osm-ml/o3.png);
+  }
+  60% {
+    content: url(./img/osm-ml/o4.png);
+  }
+  80% {
+    content: url(./img/osm-ml/o5.png);
+  }
+  100% {
+    content: url(./img/osm-ml/o6.png);
+  }
+}
+
+@keyframes osmm {
+  20% {
+    content: url(./img/osm-ml/o2.png);
+  }
+  40% {
+    content: url(./img/osm-ml/o3.png);
+  }
+  60% {
+    content: url(./img/osm-ml/o4.png);
+  }
+  80% {
+    content: url(./img/osm-ml/o5.png);
+  }
+  100% {
+    content: url(./img/osm-ml/o6.png);
+  }
+}
+
+/* Skills */
+.skl1 {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.skl1 h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.skl2 {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.skillku {
+  margin-top: auto;
+  margin-left: auto;
+  padding: 5vh 30vh;
+}
+
+.skillku p {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  border: 2px solid lightblue;
+  border-radius: 20px;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 20px;
+}
+
+.html {
+  width: 50%;
+  background: #e0ec19;
+  background: linear-gradient(25deg, #e0ec19 0%, #da850d 79%);
+}
+
+.css {
+  width: 50%;
+  background: #22c1c3;
+  background: linear-gradient(25deg, #22c1c3 0%, #fdbb2d 100%);
+}
+
+.js {
+  width: 40%;
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+}
+
+.py {
+  width: 60%;
+  background: #4b1099;
+  background: linear-gradient(25deg, #4b1099 0%, #ff7ad8 52%, #3fe793 100%);
+}
+
+/* Interest */
+.int {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.int h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.int p {
+  text-align: justify;
+  font-size: 30px;
+  padding: 20px 50px;
+}
+
+/* Contacts */
+.con {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.con h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 10vh;
+}
+
+.con img {
+  padding: 5px 30px;
+}
+
+/* Copyright */
+.cr {
+  position: relative;
+  background: url(./img/img1.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  -webkit-animation: movingBack 22s linear infinite;
+          animation: movingBack 22s linear infinite;
+}
+
+@keyframes movingBack {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 90%;
+  }
+}
+
+.cr h1 {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
